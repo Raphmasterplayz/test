@@ -1,0 +1,28 @@
+local Library =  loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Raph's pov script", "Ocean")
+
+local Tab = Window:NewTab("Main")
+
+local Section = Tab:NewSection("Main")
+
+
+Section:NewButton("Figrue doors 50 pov", "balls", function()     loadstring(game:HttpGet("https://pastebin.com/raw/yAmUcY13"))()
+    print("Clicked")
+end)
+
+
+
+
+Section:NewButton("seek pov", "works for both", function()       loadstring(game:HttpGet("https://pastebin.com/raw/QPsfr9P4"))()
+    print("Clicked")
+end)
+
+
+Section:NewButton("Figruedoor100", "figure", function()    loadstring(game:HttpGet("https://pastebin.com/raw/hViaKdbk"))()
+    print("Clicked")
+end)
+
+
+Section:NewButton("Ambush pov", "pov", function()        game:GetService("RunService").RenderStepped:Connect(function() workspace.CurrentCamera.CFrame = workspace:FindFirstChild("AmbushMoving", true).RushNew.CFrame end)
+    print("Clicked")
+end)
